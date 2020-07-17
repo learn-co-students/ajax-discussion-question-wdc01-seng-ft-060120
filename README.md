@@ -11,6 +11,7 @@
 ### Question 1
 
 Given the following code list the order of console.logs:
+    Hello, Sup?, and Hi
 
 ```javascript
 console.log("Hello")
@@ -28,6 +29,8 @@ console.log("Sup?")
 
 When fetchData is executed what will be console logged?
 
+a promise 
+
 ```javascript
 function fetchData(){
         let data = fetch('https://randomuser.me/api/')
@@ -40,6 +43,7 @@ fetchData()
 ```
 
 What will be console logged when the following code is run? Why?
+a object or a json file
 
 ```javascript
 function fetchData(){
@@ -52,6 +56,8 @@ fetchData()
 ```
 
 What will be console logged when the following code is run? Why?
+
+a object should be console logged because the console.log is just being refrence  not invoked and the res.json will be passed over from the first then and the second then and it's refrenced console.log will just log it
 
 ```javascript
 function fetchData(){
@@ -67,9 +73,13 @@ fetchData()
 
 In your own words: what does asynchronous mean?
 
+Asynchronus mean to be able to do many task at the same time and with out having to to wait for one task to be finished before the next to start.
+
 ### Question 4
 
 Write out the request and response cycle. What is its purpose? How does it work?
+
+client, provider, server, client. 
 
 ### Question 5
 
