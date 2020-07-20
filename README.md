@@ -27,6 +27,7 @@ console.log("Sup?")
 ### Question 2
 
 When fetchData is executed what will be console logged?
+data
 
 ```javascript
 function fetchData(){
@@ -47,6 +48,7 @@ function fetchData(){
           .then( res => res.json() )
           .then( json => console.log(json) )
 }
+json data
 
 fetchData()
 ```
@@ -62,10 +64,12 @@ function fetchData(){
 
 fetchData()
 ```
+json due to .then
 
 ### Question 3
 
 In your own words: what does asynchronous mean?
+not in order, ran when called out of order
 
 ### Question 4
 
